@@ -33,7 +33,7 @@ void add_map(std::string str, std::unordered_map<std::string, double>& map)
 
 	if (it != map.end())
 	{
-		it->second = it->second + price;
+		it->second = it->second + pair.second;
 	}
 	else
 	{
